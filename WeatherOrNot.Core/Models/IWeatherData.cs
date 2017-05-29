@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using NodaTime;
 
 namespace WeatherOrNot.Core.Models
 {
@@ -15,29 +16,9 @@ namespace WeatherOrNot.Core.Models
         IForecast[] Forecasts { get; }
 
         /// <summary>
-        /// Gets the city that the data is for.
+        /// Gets the timezone that all of the dates are in.
         /// </summary>
-        string City { get; }
-
-        /// <summary>
-        /// Gets the country that the data is for.
-        /// </summary>
-        string Country { get; }
-
-        /// <summary>
-        /// Gets the region that the data is for.
-        /// </summary>
-        string Region { get; }
-
-        /// <summary>
-        /// Gets the current temperature.
-        /// </summary>
-        double CurrentTemp { get; }
-
-        /// <summary>
-        /// Gets the description for the current condition.
-        /// </summary>
-        string CurrentConditionDescription { get; }
+        DateTimeZone TimeZone { get; }
 
         /// <summary>
         /// Gets the unit that the temperatures are in.

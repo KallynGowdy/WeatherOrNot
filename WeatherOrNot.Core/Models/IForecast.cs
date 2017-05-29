@@ -8,7 +8,8 @@ namespace WeatherOrNot.Core.Models
     /// </summary>
     public interface IForecast
     {
-        LocalDate Date { get; }
+        ForecastType Type { get; }
+        Instant Date { get; }
         double High { get; }
         double Low { get; }
         string Description { get; }
