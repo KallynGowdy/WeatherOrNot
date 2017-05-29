@@ -1,0 +1,101 @@
+﻿{
+  "query": {
+    "count": 1,
+    "created": "2017-05-29T17:50:13Z",
+    "lang": "en-US",
+    "results": {
+      "channel": {
+        "units": {
+          "distance": "mi",
+          "pressure": "in",
+          "speed": "mph",
+          "temperature": "F"
+        },
+        "title": "Yahoo! Weather - Grand Rapids, MI, US",
+        "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2412843/",
+        "description": "Yahoo! Weather for Grand Rapids, MI, US",
+        "language": "en-us",
+        "lastBuildDate": "Mon, 29 May 2017 01:50 PM EDT",
+        "ttl": "60",
+        "location": {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "region": " MI"
+        },
+        "wind": {
+          "chill": "72",
+          "direction": "255",
+          "speed": "22"
+        },
+        "atmosphere": {
+          "humidity": "38",
+          "pressure": "983.0",
+          "rising": "0",
+          "visibility": "16.1"
+        },
+        "astronomy": {
+          "sunrise": "6:8 am",
+          "sunset": "9:12 pm"
+        },
+        "image": {
+          "title": "Yahoo! Weather",
+          "width": "142",
+          "height": "18",
+          "link": "http://weather.yahoo.com",
+          "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+        },
+        "item": {
+          "title": "Conditions for Grand Rapids, MI, US at 01:00 PM EDT",
+          "lat": "42.968948",
+          "long": "-85.636658",
+          "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2412843/",
+          "pubDate": "Mon, 29 May 2017 01:00 PM EDT",
+          "condition": {
+            "code": "34",
+            "date": "Mon, 29 May 2017 01:00 PM EDT",
+            "temp": "72",
+            "text": "Mostly Sunny"
+          },
+          "forecast": [
+            {
+              "code": "32",
+              "date": "29 May 2017",
+              "day": "Mon",
+              "high": "74",
+              "low": "54",
+              "text": "Sunny"
+            },
+            {
+              "code": "30",
+              "date": "30 May 2017",
+              "day": "Tue",
+              "high": "67",
+              "low": "53",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "31 May 2017",
+              "day": "Wed",
+              "high": "65",
+              "low": "50",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "47",
+              "date": "01 Jun 2017",
+              "day": "Thu",
+              "high": "72",
+              "low": "52",
+              "text": "Scattered Thunderstorms"
+            }
+          ],
+          "description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/34.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Mostly Sunny\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Mon - Sunny. High: 74Low: 54\n<BR /> Tue - Partly Cloudy. High: 67Low: 53\n<BR /> Wed - Partly Cloudy. High: 65Low: 50\n<BR /> Thu - Scattered Thunderstorms. High: 72Low: 52\n<BR /> Fri - Scattered Thunderstorms. High: 76Low: 58\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2412843/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)\n<BR />\n]]>",
+          "guid": {
+            "isPermaLink": "false"
+          }
+        }
+      }
+    }
+  }
+}

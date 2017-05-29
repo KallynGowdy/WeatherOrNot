@@ -1,13 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>    
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DataSets\TestWeatherDeserializesJson_Case1.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DataSets\TestWeatherDeserializesJson_Case1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="4.19.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="NodaTime" Version="2.0.2" />
     <PackageReference Include="xunit" Version="2.2.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherOrNot.Core\WeatherOrNot.Core.csproj" />
+    <ProjectReference Include="..\WeatherOrNot\WeatherOrNot.csproj" />
   </ItemGroup>
 
 </Project>
