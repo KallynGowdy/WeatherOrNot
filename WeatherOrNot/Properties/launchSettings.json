@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WeatherOrNot": {
+      "commandName": "Project",
+      "commandLineArgs": "\"42.846988\" \"-85.650766\""
+    }
+  }
+}
